@@ -1,0 +1,32 @@
+﻿@model List<KutuphaneProje.Models.BooksIndexViewModel>
+
+<a href="/Login/Index">Personel Girişi Yapın</a>
+
+<h1>Books</h1>
+<table class="table table-bordered">
+    <tr>
+        <th>#</th>
+        <th>Kitap Adı</th>
+        <th>Yazar Adı</th>
+        <th>Alıcı Adı</th>
+        <th>Getirileceği Tarih</th>
+        <th>Durum</th>
+
+    </tr>
+    @foreach (var item in Model)
+    {
+     
+        <tr>
+            <td>@item.Id</td>
+            <td>@item.Bookname</td>
+            <td>@item.Outhor</td>
+            <td>@item.Name  @item.Surname</td>
+            <td>@item.EndDate</td>
+            <td>@item.Status</td>
+
+
+        </tr>
+      
+
+    }
+</table>

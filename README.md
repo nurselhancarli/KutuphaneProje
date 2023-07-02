@@ -1,1 +1,4 @@
 # KutuphaneProje
+
+Proje ilk açıldığında gelen sayfa kütüphanedeki kitapların dışarıda mı yoksa kütüphanede mi olduğunu gösteren listedir Bu listede herhangi bir işlem yapılamaz.
+İşlem yapmak için sol üstte bulunan "Personel Girişi Yapın" sayfasına gidilerek giriş yapılması gerekir. Eğer üyeliği yok ise o sayfada bulunan sağ alt köşeden üye olunması gerekir Üye olunduktan sonra giriş sayfasına yönlendirilir. Giriş yapıldıktan sonra liste sayfası gelir. Bu liste sayfasında sol üst köşeden yeni bir kitap eklenebilir. Eklenen kitabın ödünç verilip verilemeyeceği bu sayfada gösterilir. Eğer kitap ödünç verilmemişse butona tıklayarak ödünç alan kişinin adı, ödünç alındığı tarih ve geri getirileceği tarih bilgisi girilir. Ödünç verilmiş kitaplar için bi işlem yapılamaz. Bu kayıtlar girildikten sonra ana sayfadaki listeden istenilen alanlar görüntülenir.
